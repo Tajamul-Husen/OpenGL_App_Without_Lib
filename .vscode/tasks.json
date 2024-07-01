@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Build OpenGL No Lib App Project",
+      "command": "${workspaceFolder}/scripts/build.bat",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "presentation": {
+        "focus": true,
+        "panel": "dedicated",
+        "showReuseMessage": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug OpenGL No Lib App Project",
+      "type": "cppdbg",
+      "request": "launch",
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/bin/",
+      "environment": [],
+      "program": "${workspaceFolder}/bin/OPENGL_NO_LIB_APP.exe",
+      "args": [],
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false
+    }
+  ]
+}
